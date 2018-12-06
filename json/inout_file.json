@@ -1,0 +1,45 @@
+{
+        "job_name": "sample",
+        "draft_ver": "v1",
+        "fvmips": ["fvmip1", "fvmip2"],
+        "cluster1": {
+                "ipmiips": ["ipmiip1", "ipmi2"],
+                "hostips": ["hostip1", "hostip2"],
+                "svmips": ["svmip1", "svmip2"],
+                "num_tests": 1,
+                "testcases": ["test1", "test2"]
+        },
+        "test1": {
+                "stages": [{
+                        "Imaging": {
+                                "aos": "aos_version",
+                                "fnd": "fvm_version"
+                        },
+
+                        "Inventory": {
+                                "url": "portal url"
+
+                        },
+
+                        "Verify Inventory": {
+                                "Bios": "version"
+
+                        },
+
+                        "Verify Available": {
+                                "Bios": "version"
+
+                        },
+
+                        "Update": {
+                                "BIOS": "version"
+                                                                                                                         1,0-1         Top
+  
+                          },
+ 
+                        "Verify Update": {
+                               "BIOS": "version"
+                          }
+                  }]
+         }
+   }

@@ -1,2 +1,3 @@
 # Python
-Misc python programs which I've faced issues
+Various python programs which I've faced issues.
+Feedback is always welcome.
